@@ -1,0 +1,26 @@
+{
+  "MQTT": {
+    "localUrl": "tcp://10.1.95.180:1883",
+    "kfarmUrl": "tcp://10.1.95.180:1883"
+  },
+  "REDIS" : {
+    "url" : "10.1.95.185:6379",
+    "password" : "",
+    "db" : 1
+  },
+  "INFO" : {
+      "prjctNo"  : "3764386366346436",
+      "endpntId" : "3364316630636632",
+      "nodeId"   : 3733393238383536
+   },
+  "RDB" : {
+    "product" : "mysql",
+    "connect_string" : "root:root@tcp(localhost:3306)/gojjang?charset=utf8&parseTime=True&loc=Local",
+    "debug" : true,
+    "migrate": true
+  },
+  "AUTH" : {
+    "auth_key" : "golang_auth_secret_key",
+    "jwt_key" : "golang_secret_key"
+  }
+}

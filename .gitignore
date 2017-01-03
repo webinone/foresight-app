@@ -1,0 +1,7 @@
+
+# backend log 디렉토리 제외
+/backend/logs
+
+# backend vendor 디렉토리의 manifest만 빼고 모두 안함
+/backend/vendor
+!/backend/vendor/manifest
