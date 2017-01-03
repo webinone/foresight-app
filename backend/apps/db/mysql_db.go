@@ -5,7 +5,6 @@ import (
 	rdbModel "foresight-app.v1/backend/apps/models/rdb"
 	"github.com/jinzhu/gorm"
 	_ "github.com/go-sql-driver/mysql"
-	"time"
 )
 
 type MySqlDB struct {
